@@ -23,6 +23,10 @@ img.ftimg {
     margin-bottom: 15px;
 }
 
+label {
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.65);
+}
+
 
 #mc_embed_signup{background:#000; clear:left; font:14px Helvetica,Arial,sans-serif; }
 /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
@@ -33,3 +37,21 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
     transition: none !important;
 }
 
+#splash {
+    max-width: 100%;
+    margin-top: -30px;
+    margin-bottom: -120px;
+}
+
+@media (max-width: 1000px) {
+    #splash {
+        margin-top: -15px;
+        margin-bottom: -50px;
+    }
+}
+
+@media (max-width: 600px) {
+    #splash {
+        margin: 0;
+    }
+}
