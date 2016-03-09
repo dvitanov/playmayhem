@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    text-align:center; 
+    background: url('img/splash.jpg') cover;
+}
+
+img.social-media {
+    margin-left: 10px; 
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.ft {
+    font-size: 60%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px
+}
+
+img.ftimg {
+    margin-bottom: 15px;
+}
+
+
+#mc_embed_signup{background:#000; clear:left; font:14px Helvetica,Arial,sans-serif; }
+/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+.button_color {
+    background-color: #73A7CE !important;
+    transition: none !important;
+}
+
